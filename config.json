@@ -1,0 +1,73 @@
+{
+  "ocr": {
+    "engine": "easyocr",
+    "language": "eng+chi_sim",
+    "confidence_threshold": 50,
+    "fallback_engine": "tesseract"
+  },
+  "capture": {
+    "interval": 3.0,
+    "image_scale": 2.5,
+    "save_screenshots": false,
+    "screenshot_retention_days": 7
+  },
+  "typing": {
+    "delay_min": 0.05,
+    "delay_max": 0.15,
+    "pause_probability": 0.1,
+    "pause_duration_min": 0.5,
+    "pause_duration_max": 2.0,
+    "use_clipboard": true,
+    "speed_variation": 0.3,
+    "max_message_length": 2000
+  },
+  "conversation": {
+    "max_length": 20,
+    "auto_save": true,
+    "save_interval": 5,
+    "message_similarity_threshold": 0.7,
+    "ignore_system_messages": true,
+    "wait_timeout": 60,
+    "turn_delay": 3
+  },
+  "ui": {
+    "theme": "default",
+    "font_size": 10,
+    "window_size": "1200x800",
+    "auto_scroll": true,
+    "show_timestamps": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/app.log",
+    "max_file_size": "10MB",
+    "backup_count": 5,
+    "console_output": true
+  },
+  "detection": {
+    "new_message_keywords": [
+      "刚刚",
+      "现在",
+      "just now",
+      "now"
+    ],
+    "typing_indicators": [
+      "正在输入",
+      "typing",
+      "is typing",
+      "..."
+    ],
+    "system_message_patterns": [
+      "系统消息",
+      "system",
+      "bot",
+      "助手"
+    ]
+  },
+  "safety": {
+    "max_retry_attempts": 3,
+    "error_cooldown": 5.0,
+    "rate_limit_delay": 1.0,
+    "emergency_stop_key": "F12"
+  }
+}

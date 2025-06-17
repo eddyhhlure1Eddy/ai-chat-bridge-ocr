@@ -1,0 +1,331 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+详细的截图问题诊断脚本
+"""
+
+import sys
+import os
+import platform
+import time
+
+def test_basic_screenshot():
+    """测试基础截图功能"""
+    print("🧪 测试基础截图功能...")
+    
+    try:
+        import pyautogui
+        
+        print(f"📦 pyautogui版本: {pyautogui.__version__}")
+        
+        # 获取屏幕尺寸
+        screen_size = pyautogui.size()
+        print(f"📺 屏幕尺寸: {screen_size}")
+        
+        # 测试1: 全屏截图
+        print("\n📸 测试1: 全屏截图...")
+        pyautogui.FAILSAFE = False
+        
+        start_time = time.time()
+        screenshot = pyautogui.screenshot()
+        end_time = time.time()
+        
+        print(f"⏱️ 截图耗时: {end_time - start_time:.3f}秒")
+        
+        if screenshot:
+            print(f"✅ 截图成功: {screenshot.size}")
+            print(f"📊 图像模式: {screenshot.mode}")
+            
+            # 保存截图
+            screenshot.save("debug_full.png")
+            print("💾 全屏截图已保存: debug_full.png")
+            
+            # 分析图像内容
+            analyze_image(screenshot, "全屏")
+            
+            return screenshot
+        else:
+            print("❌ 截图返回None")
+            return None
+            
+    except Exception as e:
+        print(f"❌ 基础截图测试失败: {e}")
+        import traceback
+        traceback.print_exc()
+        return None
+
+def test_region_screenshot():
+    """测试区域截图"""
+    print("\n🧪 测试区域截图功能...")
+    
+    try:
+        import pyautogui
+        
+        # 测试不同大小的区域
+        test_regions = [
+            (100, 100, 200, 200),  # 小区域
+            (0, 0, 500, 300),      # 左上角
+            (200, 200, 400, 300),  # 中间区域
+        ]
+        
+        for i, region in enumerate(test_regions):
+            print(f"\n📸 测试区域 {i+1}: {region}")
+            x, y, w, h = region
+            
+            try:
+                start_time = time.time()
+                screenshot = pyautogui.screenshot(region=region)
+                end_time = time.time()
+                
+                print(f"⏱️ 截图耗时: {end_time - start_time:.3f}秒")
+                
+                if screenshot:
+                    print(f"✅ 区域截图成功: {screenshot.size}")
+                    
+                    # 保存截图
+                    filename = f"debug_region_{i+1}.png"
+                    screenshot.save(filename)
+                    print(f"💾 区域截图已保存: {filename}")
+                    
+                    # 分析图像内容
+                    analyze_image(screenshot, f"区域{i+1}")
+                else:
+                    print("❌ 区域截图返回None")
+                    
+            except Exception as e:
+                print(f"❌ 区域 {i+1} 截图失败: {e}")
+                
+    except Exception as e:
+        print(f"❌ 区域截图测试失败: {e}")
+
+def analyze_image(image, label):
+    """分析图像内容"""
+    try:
+        import numpy as np
+        
+        # 转换为numpy数组
+        img_array = np.array(image)
+        
+        # 基本统计
+        print(f"📊 {label}图像分析:")
+        print(f"   尺寸: {image.size}")
+        print(f"   模式: {image.mode}")
+        print(f"   数组形状: {img_array.shape}")
+        
+        # 颜色统计
+        if len(img_array.shape) == 3:  # RGB图像
+            r_mean = np.mean(img_array[:, :, 0])
+            g_mean = np.mean(img_array[:, :, 1])
+            b_mean = np.mean(img_array[:, :, 2])
+            print(f"   RGB平均值: R={r_mean:.1f}, G={g_mean:.1f}, B={b_mean:.1f}")
+            
+            # 检查是否为黑屏
+            total_brightness = (r_mean + g_mean + b_mean) / 3
+            print(f"   总体亮度: {total_brightness:.1f}")
+            
+            if total_brightness < 10:
+                print("   ⚠️ 可能是黑屏")
+            elif total_brightness < 50:
+                print("   ⚠️ 图像较暗")
+            else:
+                print("   ✅ 图像亮度正常")
+                
+            # 检查颜色分布
+            unique_colors = len(np.unique(img_array.reshape(-1, img_array.shape[-1]), axis=0))
+            print(f"   唯一颜色数: {unique_colors}")
+            
+            if unique_colors < 10:
+                print("   ⚠️ 颜色种类很少，可能有问题")
+            else:
+                print("   ✅ 颜色分布正常")
+                
+        elif len(img_array.shape) == 2:  # 灰度图像
+            mean_val = np.mean(img_array)
+            print(f"   灰度平均值: {mean_val:.1f}")
+            
+            if mean_val < 10:
+                print("   ⚠️ 可能是黑屏")
+            else:
+                print("   ✅ 图像正常")
+                
+    except Exception as e:
+        print(f"❌ 图像分析失败: {e}")
+
+def test_alternative_methods():
+    """测试替代截图方法"""
+    print("\n🧪 测试替代截图方法...")
+    
+    # 方法1: PIL ImageGrab
+    try:
+        print("\n📸 测试PIL ImageGrab...")
+        from PIL import ImageGrab
+        
+        screenshot = ImageGrab.grab()
+        if screenshot:
+            print(f"✅ PIL ImageGrab成功: {screenshot.size}")
+            screenshot.save("debug_pil.png")
+            print("💾 PIL截图已保存: debug_pil.png")
+            analyze_image(screenshot, "PIL")
+        else:
+            print("❌ PIL ImageGrab失败")
+            
+    except Exception as e:
+        print(f"❌ PIL ImageGrab测试失败: {e}")
+    
+    # 方法2: 系统特定方法
+    system = platform.system()
+    if system == "Windows":
+        try:
+            print("\n📸 测试Windows特定方法...")
+            import win32gui
+            import win32ui
+            import win32con
+            from PIL import Image
+            
+            # 获取桌面窗口
+            hwnd = win32gui.GetDesktopWindow()
+            
+            # 获取窗口尺寸
+            left, top, right, bottom = win32gui.GetWindowRect(hwnd)
+            width = right - left
+            height = bottom - top
+            
+            print(f"📺 桌面窗口尺寸: {width}x{height}")
+            
+            # 创建设备上下文
+            hwndDC = win32gui.GetWindowDC(hwnd)
+            mfcDC = win32ui.CreateDCFromHandle(hwndDC)
+            saveDC = mfcDC.CreateCompatibleDC()
+            
+            # 创建位图
+            saveBitMap = win32ui.CreateBitmap()
+            saveBitMap.CreateCompatibleBitmap(mfcDC, width, height)
+            saveDC.SelectObject(saveBitMap)
+            
+            # 复制屏幕内容
+            result = saveDC.BitBlt((0, 0), (width, height), mfcDC, (0, 0), win32con.SRCCOPY)
+            
+            if result:
+                # 获取位图数据
+                bmpinfo = saveBitMap.GetInfo()
+                bmpstr = saveBitMap.GetBitmapBits(True)
+                
+                # 转换为PIL图像
+                screenshot = Image.frombuffer(
+                    'RGB',
+                    (bmpinfo['bmWidth'], bmpinfo['bmHeight']),
+                    bmpstr, 'raw', 'BGRX', 0, 1
+                )
+                
+                print(f"✅ Windows GDI成功: {screenshot.size}")
+                screenshot.save("debug_gdi.png")
+                print("💾 GDI截图已保存: debug_gdi.png")
+                analyze_image(screenshot, "GDI")
+            else:
+                print("❌ Windows GDI BitBlt失败")
+            
+            # 清理资源
+            win32gui.DeleteObject(saveBitMap.GetHandle())
+            saveDC.DeleteDC()
+            mfcDC.DeleteDC()
+            win32gui.ReleaseDC(hwnd, hwndDC)
+            
+        except Exception as e:
+            print(f"❌ Windows GDI测试失败: {e}")
+
+def test_system_info():
+    """测试系统信息"""
+    print("\n🔍 系统信息检查...")
+    
+    # 基本系统信息
+    print(f"🖥️ 操作系统: {platform.system()} {platform.release()}")
+    print(f"🐍 Python版本: {sys.version}")
+    print(f"📁 当前目录: {os.getcwd()}")
+    
+    # 显示相关信息
+    try:
+        import tkinter as tk
+        root = tk.Tk()
+        root.withdraw()
+        
+        screen_width = root.winfo_screenwidth()
+        screen_height = root.winfo_screenheight()
+        dpi = root.winfo_fpixels('1i')
+        
+        print(f"📺 Tkinter屏幕尺寸: {screen_width}x{screen_height}")
+        print(f"📊 DPI: {dpi:.1f}")
+        print(f"📏 缩放比例: {dpi/96:.2f}")
+        
+        root.destroy()
+        
+    except Exception as e:
+        print(f"❌ Tkinter信息获取失败: {e}")
+    
+    # 环境变量
+    if platform.system() == "Linux":
+        display = os.environ.get('DISPLAY')
+        print(f"🖥️ DISPLAY: {display}")
+    
+    # 权限检查
+    if platform.system() == "Darwin":  # macOS
+        print("🍎 macOS权限提醒:")
+        print("   请确保已授予屏幕录制权限")
+        print("   系统偏好设置 > 安全性与隐私 > 隐私 > 屏幕录制")
+
+def main():
+    """主函数"""
+    print("🔧 详细截图问题诊断")
+    print("=" * 50)
+    
+    # 系统信息
+    test_system_info()
+    
+    # 基础截图测试
+    full_screenshot = test_basic_screenshot()
+    
+    # 区域截图测试
+    test_region_screenshot()
+    
+    # 替代方法测试
+    test_alternative_methods()
+    
+    print("\n" + "=" * 50)
+    print("📊 诊断完成")
+    
+    # 检查生成的文件
+    debug_files = [f for f in os.listdir('.') if f.startswith('debug_') and f.endswith('.png')]
+    
+    if debug_files:
+        print(f"\n📁 生成的调试文件: {len(debug_files)}个")
+        for file in debug_files:
+            try:
+                size = os.path.getsize(file)
+                print(f"   {file}: {size} bytes")
+            except:
+                print(f"   {file}: 无法获取大小")
+        
+        print("\n💡 请检查这些图像文件来判断截图是否正常")
+    else:
+        print("\n❌ 没有生成任何截图文件")
+    
+    print("\n🔍 如果所有截图都是黑屏，可能的原因:")
+    print("   1. 屏幕权限问题（特别是macOS）")
+    print("   2. 显卡驱动问题")
+    print("   3. 高DPI缩放问题")
+    print("   4. 虚拟机或远程桌面环境")
+    print("   5. 安全软件阻止")
+    
+    # 清理选项
+    response = input("\n是否删除调试文件？(y/n): ").lower().strip()
+    if response in ['y', 'yes', '是']:
+        for file in debug_files:
+            try:
+                os.remove(file)
+                print(f"🗑️ 删除: {file}")
+            except:
+                pass
+    
+    input("\n按回车键退出...")
+
+if __name__ == "__main__":
+    main()

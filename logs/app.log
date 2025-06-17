@@ -1,0 +1,255 @@
+2025-06-17 04:14:46 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 04:14:46 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 04:14:46 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 04:14:46 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 04:14:46 - AIChatBridge - INFO - Tesseract OCR 可用
+2025-06-17 04:14:46 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 04:14:46 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 04:14:53 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 04:15:01 - AIChatBridge - INFO - 状态: left侧区域选择完成
+2025-06-17 04:15:01 - AIChatBridge - INFO - left侧区域选择: (131, 141, 1078, 887)
+2025-06-17 04:15:11 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 04:15:39 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 04:15:39 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 04:15:39 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 04:15:39 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 04:15:40 - AIChatBridge - INFO - Tesseract OCR 可用
+2025-06-17 04:15:40 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 04:15:40 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 04:16:04 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 04:16:29 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 04:16:29 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 04:16:29 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 04:16:29 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 04:16:29 - AIChatBridge - INFO - Tesseract OCR 可用
+2025-06-17 04:16:29 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 04:16:29 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 04:16:32 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 12:39:04 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 12:39:04 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 12:39:04 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 12:39:04 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 12:39:04 - AIChatBridge - INFO - Tesseract OCR 可用
+2025-06-17 12:39:04 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 12:39:04 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 12:39:31 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 12:39:47 - AIChatBridge - INFO - 状态: left侧区域选择完成
+2025-06-17 12:39:47 - AIChatBridge - INFO - left侧区域选择: (188, 139, 952, 1184)
+2025-06-17 12:40:05 - AIChatBridge - INFO - 状态: 请选择right侧聊天区域...
+2025-06-17 12:40:21 - AIChatBridge - INFO - 状态: right侧区域选择完成
+2025-06-17 12:40:21 - AIChatBridge - INFO - right侧区域选择: (1331, 101, 1139, 1229)
+2025-06-17 12:40:21 - AIChatBridge - INFO - 状态: 准备就绪 - 可以开始桥接
+2025-06-17 12:40:40 - AIChatBridge - INFO - 状态: 请选择right侧聊天区域...
+2025-06-17 12:40:46 - AIChatBridge - INFO - 状态: right侧区域选择完成
+2025-06-17 12:40:46 - AIChatBridge - INFO - right侧区域选择: (1423, 138, 978, 1244)
+2025-06-17 12:40:46 - AIChatBridge - INFO - 状态: 准备就绪 - 可以开始桥接
+2025-06-17 12:40:55 - AIChatBridge - INFO - 状态: 桥接已启动
+2025-06-17 12:41:39 - AIChatBridge - INFO - 状态: 桥接已停止
+2025-06-17 12:41:55 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 12:53:53 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 12:53:53 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 12:53:53 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 12:53:53 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 12:53:54 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 12:53:54 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 12:53:54 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 12:54:23 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 12:57:51 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 12:57:51 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 12:57:51 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 12:57:51 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 12:57:52 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 12:57:52 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 12:57:52 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 12:58:07 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 12:58:07 - AIChatBridge - ERROR - 显示截图失败: image "pyimage1" doesn't exist
+2025-06-17 12:58:11 - AIChatBridge - INFO - 状态: left侧区域选择取消
+2025-06-17 13:03:34 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 13:04:03 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 13:04:03 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 13:04:03 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 13:04:03 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 13:04:03 - AIChatBridge - INFO - 截图功能测试通过
+2025-06-17 13:04:04 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 13:04:04 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 13:04:04 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 13:04:07 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 13:04:08 - AIChatBridge - ERROR - 显示截图失败: image "pyimage1" doesn't exist
+2025-06-17 13:04:17 - AIChatBridge - INFO - 状态: left侧区域选择取消
+2025-06-17 13:04:19 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 13:09:33 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 13:09:33 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 13:09:33 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 13:09:33 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 13:09:33 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 13:09:33 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 13:09:33 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 13:09:33 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 13:09:33 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 13:09:33 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 13:09:33 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 13:09:33 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 13:09:33 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 13:09:33 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 13:09:33 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 13:09:33 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 13:09:35 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 13:09:35 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 13:09:35 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 13:09:35 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 13:09:35 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 13:09:35 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 13:09:35 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 13:09:35 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 13:09:35 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 13:09:35 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 13:09:35 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 13:09:35 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 13:09:38 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 13:09:38 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 13:09:41 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 13:09:41 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 13:09:42 - AIChatBridge - ERROR - 显示截图失败: image "pyimage1" doesn't exist
+2025-06-17 13:09:42 - AIChatBridge - ERROR - 显示截图失败: image "pyimage1" doesn't exist
+2025-06-17 13:09:44 - AIChatBridge - INFO - 状态: left侧区域选择取消
+2025-06-17 13:09:44 - AIChatBridge - INFO - 状态: left侧区域选择取消
+2025-06-17 13:09:46 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 13:09:46 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 13:20:03 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 13:20:03 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 13:20:03 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 13:20:03 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 13:20:04 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 13:20:04 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 13:20:05 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 13:20:07 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 13:20:08 - AIChatBridge - ERROR - 显示截图失败: image "pyimage1" doesn't exist
+2025-06-17 13:20:11 - AIChatBridge - INFO - 状态: left侧区域选择取消
+2025-06-17 13:20:15 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 13:20:15 - AIChatBridge - ERROR - 显示截图失败: image "pyimage2" doesn't exist
+2025-06-17 13:20:16 - AIChatBridge - INFO - 状态: left侧区域选择取消
+2025-06-17 13:20:19 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 13:20:19 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 13:20:19 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 13:20:19 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 13:20:20 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 13:20:20 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 13:20:20 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 13:20:54 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 13:20:54 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 13:22:54 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 13:22:54 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 13:22:54 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 13:22:54 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 13:22:55 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 13:22:55 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 13:22:55 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 13:22:58 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 13:23:03 - AIChatBridge - INFO - 状态: left侧区域选择完成
+2025-06-17 13:23:03 - AIChatBridge - INFO - left侧区域选择: (268, 294, 753, 638)
+2025-06-17 13:23:26 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 13:23:29 - AIChatBridge - INFO - 状态: left侧区域选择完成
+2025-06-17 13:23:29 - AIChatBridge - INFO - left侧区域选择: (500, 158, 687, 617)
+2025-06-17 13:24:37 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 13:31:10 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 13:31:10 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 13:31:10 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 13:31:10 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 13:31:11 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 13:31:11 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 13:31:11 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 13:31:14 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 13:31:17 - AIChatBridge - INFO - 状态: left侧区域选择完成
+2025-06-17 13:31:17 - AIChatBridge - INFO - left侧区域选择: (324, 213, 547, 663)
+2025-06-17 13:31:29 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 13:31:42 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 13:31:42 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 13:31:42 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 13:31:42 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 13:31:43 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 13:31:43 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 13:31:43 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 13:31:53 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 13:31:53 - AIChatBridge - ERROR - 显示截图失败: image "pyimage1" doesn't exist
+2025-06-17 13:31:58 - AIChatBridge - INFO - 状态: left侧区域选择取消
+2025-06-17 13:32:00 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 13:33:35 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 13:33:35 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 13:33:35 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 13:33:35 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 13:33:37 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 13:33:37 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 13:33:37 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 13:33:38 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 13:33:41 - AIChatBridge - INFO - 状态: left侧区域选择完成
+2025-06-17 13:33:41 - AIChatBridge - INFO - left侧区域选择: (803, 204, 757, 553)
+2025-06-17 13:36:37 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 13:36:37 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 13:36:37 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 13:36:37 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 13:36:38 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 13:36:38 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 13:36:38 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 13:36:46 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 13:36:52 - AIChatBridge - INFO - 状态: left侧区域选择完成
+2025-06-17 13:36:52 - AIChatBridge - INFO - left侧区域选择: (120, 150, 1061, 1167)
+2025-06-17 13:36:54 - AIChatBridge - INFO - 状态: 请选择right侧聊天区域...
+2025-06-17 13:37:00 - AIChatBridge - INFO - 状态: right侧区域选择完成
+2025-06-17 13:37:00 - AIChatBridge - INFO - right侧区域选择: (1447, 157, 929, 1172)
+2025-06-17 13:37:00 - AIChatBridge - INFO - 状态: 准备就绪 - 可以开始桥接
+2025-06-17 13:37:04 - AIChatBridge - INFO - 状态: 桥接已启动
+2025-06-17 13:37:07 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 13:37:07 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 13:37:07 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 13:37:07 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 13:37:08 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 13:37:08 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 13:37:08 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 13:37:11 - AIChatBridge - INFO - left侧检测到新消息
+2025-06-17 13:37:11 - AIChatBridge - INFO - 转发消息到right侧: hhi Thought for 4 seconds  在随时待命 区:(120, 1061x1167...
+2025-06-17 13:37:14 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 13:37:30 - AIChatBridge - INFO - 消息输入成功: hhi Thought for 4 seconds 在随时待命 区:(120, 1061x1167 ...
+2025-06-17 13:37:30 - AIChatBridge - INFO - 消息成功转发到right侧
+2025-06-17 13:37:38 - AIChatBridge - INFO - right侧检测到新消息
+2025-06-17 13:37:38 - AIChatBridge - INFO - 转发消息到left侧: BK hihi The user has preferences to always use Chi...
+2025-06-17 13:37:41 - AIChatBridge - INFO - 消息输入成功: BK hihi The user has preferences to always use Chi...
+2025-06-17 13:37:41 - AIChatBridge - INFO - 消息成功转发到left侧
+2025-06-17 13:37:50 - AIChatBridge - INFO - left侧检测到新消息
+2025-06-17 13:37:50 - AIChatBridge - INFO - 转发消息到right侧: hhi Thought for 4 seconds  随时待命 BKhihi The user ha...
+2025-06-17 13:37:53 - AIChatBridge - INFO - 消息输入成功: hhi Thought for 4 seconds 随时待命 BKhihi The user has...
+2025-06-17 13:37:53 - AIChatBridge - INFO - 消息成功转发到right侧
+2025-06-17 13:38:00 - AIChatBridge - INFO - 状态: 桥接已停止
+2025-06-17 13:38:01 - AIChatBridge - INFO - right侧检测到新消息
+2025-06-17 13:38:01 - AIChatBridge - INFO - 转发消息到left侧: BK and they'regreeting me with hihi 15 Retry Claud...
+2025-06-17 13:38:05 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 13:38:24 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
+2025-06-17 13:43:26 - AIChatBridge - INFO - 正在检查系统环境...
+2025-06-17 13:43:26 - AIChatBridge - INFO - 系统环境检查通过
+2025-06-17 13:43:26 - AIChatBridge - INFO - 配置加载成功
+2025-06-17 13:43:26 - AIChatBridge - INFO - 目录结构创建完成
+2025-06-17 13:43:27 - AIChatBridge - INFO - EasyOCR 初始化成功，支持语言: ['en', 'ch_sim']
+2025-06-17 13:43:27 - AIChatBridge - INFO - 数据库初始化完成
+2025-06-17 13:43:27 - AIChatBridge - INFO - AI Chat Bridge OCR 启动成功
+2025-06-17 13:43:34 - AIChatBridge - INFO - 状态: 请选择left侧聊天区域...
+2025-06-17 13:43:39 - AIChatBridge - INFO - 状态: left侧区域选择完成
+2025-06-17 13:43:39 - AIChatBridge - INFO - left侧区域选择: (183, 184, 991, 1134)
+2025-06-17 13:43:42 - AIChatBridge - INFO - 状态: 请选择right侧聊天区域...
+2025-06-17 13:43:47 - AIChatBridge - INFO - 状态: right侧区域选择完成
+2025-06-17 13:43:47 - AIChatBridge - INFO - right侧区域选择: (1401, 155, 1018, 1168)
+2025-06-17 13:43:47 - AIChatBridge - INFO - 状态: 准备就绪 - 可以开始桥接
+2025-06-17 13:43:49 - AIChatBridge - INFO - 状态: 桥接已启动
+2025-06-17 13:43:56 - AIChatBridge - INFO - left侧检测到新消息
+2025-06-17 13:44:03 - AIChatBridge - INFO - left侧检测到新消息
+2025-06-17 13:44:22 - AIChatBridge - INFO - left侧检测到新消息
+2025-06-17 13:44:30 - AIChatBridge - INFO - left侧检测到新消息
+2025-06-17 13:44:38 - AIChatBridge - INFO - left侧检测到新消息
+2025-06-17 13:44:46 - AIChatBridge - INFO - left侧检测到新消息
+2025-06-17 13:44:54 - AIChatBridge - INFO - left侧检测到新消息
+2025-06-17 13:44:54 - AIChatBridge - INFO - left侧检测到新消息
+2025-06-17 13:45:05 - AIChatBridge - INFO - left侧检测到新消息
+2025-06-17 13:45:12 - AIChatBridge - WARNING - 执行强制停止
+2025-06-17 13:45:12 - AIChatBridge - WARNING - 强制终止桥接线程
+2025-06-17 13:45:12 - AIChatBridge - INFO - 状态: 桥接已强制停止
+2025-06-17 13:45:13 - AIChatBridge - INFO - left侧检测到新消息
+2025-06-17 13:45:13 - AIChatBridge - INFO - 状态: 桥接已停止
+2025-06-17 13:45:24 - AIChatBridge - INFO - AI Chat Bridge OCR 正常退出
